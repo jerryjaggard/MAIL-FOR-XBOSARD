@@ -1,0 +1,54 @@
+{{-- Futuristic Tech Template - Magic Link Login --}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Login</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Trebuchet MS', Arial, sans-serif; background: linear-gradient(135deg, #0a192f 0%, #112240 50%, #0a192f 100%); min-height: 100vh;">
+    <table role="presentation" style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <td align="center" style="padding: 50px 20px;">
+                <table role="presentation" style="width: 620px; max-width: 100%; border-collapse: collapse; background: linear-gradient(180deg, rgba(17,34,64,0.95) 0%, rgba(10,25,47,0.95) 100%); border-radius: 20px; overflow: hidden; border: 1px solid rgba(100,255,218,0.3); box-shadow: 0 25px 50px rgba(0,0,0,0.5), 0 0 80px rgba(100,255,218,0.1);">
+                    <!-- Futuristic Header -->
+                    <tr>
+                        <td style="background: linear-gradient(90deg, rgba(100,255,218,0.1) 0%, rgba(100,255,218,0.2) 50%, rgba(100,255,218,0.1) 100%); padding: 50px 40px; text-align: center; border-bottom: 1px solid rgba(100,255,218,0.2);">
+                            <div style="width: 100px; height: 100px; background: linear-gradient(135deg, rgba(100,255,218,0.2), rgba(100,255,218,0.1)); border-radius: 50%; margin: 0 auto 25px; border: 2px solid rgba(100,255,218,0.4); display: flex; align-items: center; justify-content: center;">
+                                <span style="font-size: 50px;">🔐</span>
+                            </div>
+                            <div style="font-size: 11px; color: #64ffda; letter-spacing: 5px; margin-bottom: 15px;">◈ AUTHENTICATION PROTOCOL ◈</div>
+                            <h1 style="margin: 0; color: #ccd6f6; font-size: 30px; font-weight: 300;">Secure Access</h1>
+                        </td>
+                    </tr>
+                    <!-- Tech Lines -->
+                    <tr>
+                        <td style="height: 3px; background: linear-gradient(90deg, transparent 0%, #64ffda 20%, #64ffda 80%, transparent 100%);"></td>
+                    </tr>
+                    <!-- Content -->
+                    <tr>
+                        <td style="padding: 50px;">
+                            <p style="color: #64ffda; font-size: 16px; line-height: 1.8; margin: 0 0 20px;">// GREETINGS, USER</p>
+                            <p style="color: #8892b0; font-size: 16px; line-height: 1.8; margin: 0 0 35px;">A secure portal to {{$name}} has been initialized. This gateway remains active for 300 seconds.</p>
+                            <div style="text-align: center; margin: 45px 0;">
+                                <a href="{{$link}}" style="display: inline-block; background: linear-gradient(90deg, rgba(100,255,218,0.2), rgba(100,255,218,0.3)); color: #64ffda; text-decoration: none; padding: 22px 80px; border: 2px solid #64ffda; border-radius: 50px; font-weight: 500; font-size: 18px; letter-spacing: 3px; text-shadow: 0 0 10px rgba(100,255,218,0.5); box-shadow: 0 0 40px rgba(100,255,218,0.3);">◈ AUTHENTICATE ◈</a>
+                            </div>
+                            <div style="background: rgba(100,255,218,0.05); padding: 25px; border-radius: 12px; margin: 35px 0; border: 1px solid rgba(100,255,218,0.2);">
+                                <p style="color: #4a5568; font-size: 12px; margin: 0 0 12px;">// Alternative gateway:</p>
+                                <p style="color: #64ffda; font-size: 11px; word-break: break-all; margin: 0;">{{$link}}</p>
+                            </div>
+                            <p style="color: #4a5568; font-size: 14px; text-align: center; margin: 30px 0 0;">// Unauthorized request? Ignore this transmission</p>
+                        </td>
+                    </tr>
+                    <!-- Futuristic Footer -->
+                    <tr>
+                        <td style="background: linear-gradient(90deg, rgba(100,255,218,0.05) 0%, rgba(100,255,218,0.1) 50%, rgba(100,255,218,0.05) 100%); padding: 30px 40px; text-align: center; border-top: 1px solid rgba(100,255,218,0.2);">
+                            <p style="margin: 0; color: #64ffda; font-size: 12px; letter-spacing: 2px;">◈ {{$name}} • YEAR.{{ date('Y') }} ◈</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
