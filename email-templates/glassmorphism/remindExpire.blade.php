@@ -14,9 +14,9 @@
                     <!-- Glass Header -->
                     <tr>
                         <td style="background: rgba(255,255,255,0.2); padding: 50px 40px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.2);">
-                            <div style="width: 80px; height: 80px; background: rgba(255,200,200,0.3); border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 32px rgba(0,0,0,0.1);">
-                                <span style="font-size: 40px;">⏰</span>
-                            </div>
+                            <table role="presentation" style="width: 80px; height: 80px; margin: 0 auto 20px; background: rgba(255,200,200,0.3); border-radius: 50%; box-shadow: 0 8px 32px rgba(0,0,0,0.1);">
+                                <tr><td style="text-align: center; vertical-align: middle;"><span style="font-size: 40px;">⏰</span></td></tr>
+                            </table>
                             <h1 style="margin: 0; color: #ffffff; font-size: 28px; font-weight: 600; text-shadow: 0 2px 4px rgba(0,0,0,0.1);">Expiry Reminder</h1>
                         </td>
                     </tr>

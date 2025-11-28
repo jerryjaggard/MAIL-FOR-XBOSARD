@@ -14,7 +14,7 @@
                     <!-- Header -->
                     <tr>
                         <td style="padding: 50px 40px 30px; text-align: center;">
-                            <h1 style="margin: 0; background: linear-gradient(135deg, #ff6b6b, #feca57); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 28px; font-weight: 700;">{{ $name ?? 'Hello!' }}</h1>
+                            <h1 style="margin: 0; color: #ff6b6b; font-size: 28px; font-weight: 700;">{{ $name ?? 'Hello!' }}</h1>
                         </td>
                     </tr>
                     <!-- Content -->

@@ -14,9 +14,9 @@
                     <!-- Futuristic Header -->
                     <tr>
                         <td style="background: linear-gradient(90deg, rgba(100,255,218,0.1) 0%, rgba(100,255,218,0.2) 50%, rgba(100,255,218,0.1) 100%); padding: 50px 40px; text-align: center; border-bottom: 1px solid rgba(100,255,218,0.2);">
-                            <div style="width: 100px; height: 100px; background: linear-gradient(135deg, rgba(100,255,218,0.2), rgba(100,255,218,0.1)); border-radius: 50%; margin: 0 auto 25px; border: 2px solid rgba(100,255,218,0.4); display: flex; align-items: center; justify-content: center;">
-                                <span style="font-size: 50px;">🛸</span>
-                            </div>
+                            <table role="presentation" style="width: 100px; height: 100px; margin: 0 auto 25px; background: linear-gradient(135deg, rgba(100,255,218,0.2), rgba(100,255,218,0.1)); border-radius: 50%; border: 2px solid rgba(100,255,218,0.4);">
+                                <tr><td style="text-align: center; vertical-align: middle;"><span style="font-size: 50px;">🛸</span></td></tr>
+                            </table>
                             <div style="font-size: 11px; color: #64ffda; letter-spacing: 5px; margin-bottom: 15px;">◈ VERIFICATION PROTOCOL ◈</div>
                             <h1 style="margin: 0; color: #ccd6f6; font-size: 30px; font-weight: 300;">Email Verification</h1>
                         </td>
